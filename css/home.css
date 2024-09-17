@@ -24,7 +24,130 @@ header {
     width: 100%;
 }
 
-.Layout-grid {
+#banner {
+    background-color: #4969DF;
+    height: 500px;
+    width: 100%;
+}
+
+#banner2 {
+    background-color: #3691d8;
+    height: 500px;
+    width: 100%;
+}
+
+
+.banner-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 3px solid crimson; */
+}
+
+.banner-flex2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-info {
+    width: 450px;
+    height: 300px;
+    /* border: 3px solid crimson; */
+}
+
+.banner-info2 {
+    width: 450px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+#banner img {
+    height: 600px;
+    width: 500px;
+    align-self: flex-end;
+}
+
+#banner2 img {
+    height: 470px;
+    width: 470px;
+    align-self: flex-end;
+}
+
+.banner-info h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.banner-info2 h2{
+    color: white;
+    font-size: 30px;
+}
+
+.banner-info2 p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.banner-info p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.banner-info2 button {
+    background-color: #26333D;
+    color: white;
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+.banner-info button {
+    background-color: #26333D;
+    color: white;
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.layout-grid {
     margin: 0 auto;
     width: 100%;
     /* border: 3px solid snow; */
